@@ -1,0 +1,5 @@
+# excutable
+*.out
+# test file
+in
+out
