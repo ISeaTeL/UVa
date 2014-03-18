@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+/*I am god*/
 int n, adj[101][101], rec[101], ct;
 
 void dfs(int x){
