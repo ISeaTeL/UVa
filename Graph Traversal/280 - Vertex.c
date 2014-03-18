@@ -2,7 +2,7 @@
 #include <string.h>
 
 int n, adj[101][101], rec[101], ct;
-/**/
+
 void dfs(int x){
 	int y;
 	for(y = 1; y <= n; y++)
