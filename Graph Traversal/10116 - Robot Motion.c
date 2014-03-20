@@ -28,10 +28,8 @@ int main(){
 				printf("%d step(s) before a loop of %d step(s)\n", ct[a][b] - 1, ct[x][y] - ct[a][b] + 1);
 				break;
 			}
-			else{
-				ct[a][b] = ct[x][y] + 1;
-				x = a, y = b;
-			}
+			ct[a][b] = ct[x][y] + 1;
+			x = a, y = b;
 		}
 	}
 	return 0;
