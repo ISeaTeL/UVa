@@ -5,7 +5,7 @@ char adj[101][101], all_vis[101], vis[101], dom[101][101];
 
 void dfs(int x, int stop){
 	if(x == stop)
-		return;
+		return ;
 	vis[x] = 1;
 	int y;
 	for(y = 0; y < n; y++)
